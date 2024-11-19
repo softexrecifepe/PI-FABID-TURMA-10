@@ -1,7 +1,6 @@
 import { react } from "react";
-import boneco1 from '../assets/boneco1.png';
-import boneco2 from '../assets/boneco2.png';
 import textura from '../assets/textura.png';
+import boneca from '../assets/boneca.gif'
 
 function Feedbacks() {
 
@@ -11,19 +10,18 @@ function Feedbacks() {
             <div className="feedbacks">
                 <h1>Feedbacks</h1>
                 <img id="specificImage" src={textura} alt="Textura" />
-                <img id="boneco1" src={boneco1} alt="Boneco 1" />
-                <img id="boneco2" src={boneco2} alt="Boneco 2" />
+                <img id="boneca" src={boneca} alt="Boneco 1" />
                 <div id="balao1" className="balao">
-                    <p>“Lorem ipsum dolor sit amet consectetur. Vehicula mi mollis ut aenean diam. Urna tellus ”</p>
+                    <p>“Parabéns por mais uma vez corresponder minhas expectativas com esse belíssimo trabalho. Nossas contações de histórias cada dia mais divertidas. ”</p>
                 </div>
                 <div id="balao2" className="balao">
-                    <p>“Lorem ipsum dolor sit amet consectetur. Vehicula mi mollis ut aenean diam. Urna tellus”</p>
+                    <p>“Nosso Tigre Camarada ficou lindo demais!!! Parabéns mais uma vez pelo belíssimo trabalho.”</p>
                 </div>
                 <div id="balao3" className="balao">
-                    <p>“Lorem ipsum dolor sit amet consectetur. Vehicula mi mollis ut aenean diam. Urna tellus”</p>
+                    <p>“Parabéns pelo trabalho. Há muito tempo eu queria fazer a versão fantoche do Faguinho e vocês me surpreenderam em cada detalhe.”</p>
                 </div>
                 <div id="balao4" className="balao">
-                    <p>“Lorem ipsum dolor sit amet consectetur. Vehicula mi mollis ut aenean diam. Urna tellus ”</p>
+                    <p>“Quantas aprendizagens esses recursos proporcionam. Apaixonada! ❤️”</p>
                 </div>
             </div>
         </>

@@ -38,12 +38,9 @@ function Home() {
             <img src={background} alt="background" className="background" />
           </div>
         </main>
-
-
       </div>
 
-
-      <Eventos/>
+      <Eventos />
       <Certificados />
       <Feedbacks />
       <Ajude />
